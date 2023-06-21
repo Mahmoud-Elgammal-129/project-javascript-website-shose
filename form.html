@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Nunito&family=Palanquin+Dark:wght@500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <h2>shoses website</h2>
+                
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img decoding="async" loading="lazy" src="./image/airforse5.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="icons">
+                <div id="search-btn"></div>
+                <!-- <a href="#" class="fas fa-heart"></a> -->
+
+                <a href="#" class="fas fa-shopping-cart">
+                    <!-- <span class="cart-counter">0</span> -->
+                    </a>
+              </div>
+        </div>
+        <div class="navBottom">
+            <a href="../page.html" class="menuItem">Home</a>
+            <a href="./login/index.html" class="menuItem">About</a>
+            <a href="./form.html" class="menuItem">CONTACT</a>
+            
+        </div>
+    </nav>
+    <div style="background-color:#F6F1F1;">
+    <section id="form-details">
+        <h2>Form for shoses website</h2>
+        <div class="cont">
+        <table style="border-radius: 5px;">
+        <tr>
+            <td style="font-size: xx-large;"><label for="">Name</label></td>
+            <td><input type="text" placeholder="Enter your Name"></td>
+            <td>
+                <p class="nerr csl">Name is Required</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: xx-large;"><label for="">Email</label></td>
+            <td><input type="email" placeholder="Enter your Email"></td>
+            <td>
+                <p class="eerr csl">Email is not valid</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: xx-large;"><label for="">Country</label></td>
+            <td><input type="text" name="" id="" placeholder="Enter your Country"></td>
+            <td>
+                <p class="coerr csl">Please Select your Country</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: xx-large;"><label for="">Gender</label></td>
+            <td><input type="radio" name="male" value="gender" id=""><label for="">Male</label>
+                <input type="radio" name="male" value="gender"><label for="">Female</label>
+            </td>
+            <td>
+                <p class="gerr csl">Please Select your Gender</p>
+            </td>
+        </tr>
+        <tr><td colspan="3" >
+        <textarea name="" id="" cols="0" rows="6" placeholder="your message"></textarea>
+        </td></tr>
+    </table>
+    <div class="btns">
+        <button class="sub btn btn-primary">Submit</button>
+        <button class="reset btn btn-warning">reset</button>
+    </div>
+    </div>
+        </section>
+</div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img decoding="async" src="./image/airforse5.png" alt="" class="fIcon">
+                    <img decoding="async" src="./image/airforse3.png" alt="" class="fIcon">
+                    <img decoding="async" src="./image/airforse4.png" alt="" class="fIcon">
+                    <img decoding="async" src="./image/blazer2.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@John Doe. All rights reserved. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./form.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'League Spartan', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  /* background-color: #111; */
+  background-color: #F6F1F1;
+  color:#19A7CE;
+  padding: 20px 50px;
+}
+.icons div,
+ a{
+ font-size: 25px;
+ margin-left: 1.5rem;
+ color:black;
+ cursor: pointer;
+ text-decoration: none;
+}
+.icons div,
+ a:hover{
+ color:#00235B;
+
+}
+.icons a .cart-counter{
+  color:#B799FF;
+}
+.icons a .cart-counter:hover{
+  color:#00235B ;
+}
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder {
+  color: lightgray;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.menuItem{
+  text-decoration: none;
+  font-size: 20px;
+    }
+    footer {
+      display: flex;
+      background-color: #D6E8DB;
+    }
+    
+    .footerLeft {
+      flex: 2;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+    }
+    
+    .fMenuTitle {
+      font-size: 16px;
+    }
+    
+    .fList {
+      padding: 0;
+      list-style: none;
+    }
+    
+    .fListItem {
+      margin-bottom: 10px;
+      color: gray;
+      cursor: pointer;
+    }
+    
+    .footerRight {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .fInput {
+      padding: 5px;
+    }
+    
+    .fButton {
+      padding: 5px;
+      background-color: black;
+      color: white;
+    }
+    
+    .fIcons{
+      display: flex;
+    }
+    
+    .fIcon{
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    
+    .copyright{
+      font-weight: 300;
+      font-size: 14px;
+    }
+    @media screen and (max-width:480px) {
+      footer{
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .footerLeft{
+        padding: 20px;
+        width: 90%;
+      }
+    
+      .footerRight{
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: whitesmoke;
+      }
+  
+  
+    }

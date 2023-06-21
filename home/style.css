@@ -1,0 +1,74 @@
+
+body {
+  /* background-color: #f2f2f2; */
+  /* font-family: Arial, sans-serif; */
+  /* background: url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&w=600); */
+  /* background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"); */
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden; */
+
+  background-image: url("../image/1.avif");
+}
+
+.login-container {
+  background-color: #6C9BCF;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  text-align: center;
+}
+.btn{
+  margin-top: 35px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:darkblue;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.menuItem{
+  text-decoration: none;
+  font-size: 20px;
+    }
+    
+    
